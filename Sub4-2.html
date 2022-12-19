@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        font-family: 'SCDream 6';
+        font-size: 14px;
+        color: #444444;
+      }
+      li{
+        list-style-type: none;
+      }
+      .clear{
+        clear: both;
+      }
+    header{
+      width:1140px;
+      height:50px;
+      margin: 0 auto;
+      background-color: rgb(255, 255, 255);
+    }
+    #logo{
+      float: left;
+      margin: 0px 0px 0px -130px;
+      padding: 10px;
+     
+    }
+    #menus{
+      float: right;
+      margin: -30px -50px 0px 50px;
+      
+    }
+
+    #top_menu{
+      text-align: right;
+      margin-top: 20px;
+     
+    }
+    #main_menu {
+      margin-top: 70px;
+      font-family: '아임크리수진';
+      font-size: 20px;
+      color: black;
+    
+    }
+    #main_menu li{
+      display: inline;
+      margin-left: 80px;
+    }
+    #main_img {
+      width: 100%;
+      height: 281px;
+      /*background-image: url(toei1.gif);*/
+      background-repeat: no-repeat;
+      background-position: top center;
+      margin-top: 20px;
+    }
+    #contents{
+      width: 1140px;
+      margin: 0 auto;
+    }
+    #sub_menu {
+        width: 100px;
+       float: left;
+        margin: 55px 0px 0px -225px;
+       
+    }
+    #sub_menu h3 {
+      font-size: 18px;
+      color: #000000;
+      padding: 12px;
+      background-color: dotted 1px #cccccc;
+    }
+    #sub_menu li{
+      padding: 10px;
+      border-bottom: solid 1px #cccccc;
+    }
+    #main_contents{
+        width:1100px;
+        float:right;
+        margin: 0px -60px 0px 0px;
+       
+    }
+    #main_contents2 {
+      width: 278px;
+        float:right;
+        margin: 15px 200px 0px 0px;
+       
+    }
+    #main_contents2{
+      line-height: 300%;
+    }
+    #main_contents h3{
+      font-size: 22px;
+      padding-bottom: 8px;
+      border-bottom: solid 1px #cccccc;
+    }
+    #main_contents h4{
+      line-height: 300%;
+    }
+    #main_contents p{
+      margin-top: 30px;
+      line-height: 180%;
+    }
+    #main_contents img{
+      padding: 10px;
+    }
+    #main_contents #figure{
+      margin-top: 30px;
+      text-align: center;
+    }
+    #main_contents li {
+      padding: 5px;
+    }
+    * {margin:0;padding:0;box-sizing:border-box;}
+ul, li {list-style:none;}
+
+
+.slidebox {max-width:700px;margin:0 auto;position:relative;}
+.slidebox .slidelist {position:relative;white-space:nowrap;font-size:0;overflow:hidden;}
+.slidebox .slidelist .slideitem {position:relative;display:inline-block;vertical-align:middle;background-color:#fff;width:100%;transition:all 1s;}
+.slidebox .slidelist .slideitem > a {display:block;width:auto;position:relative;}
+.slidebox .slidelist .slideitem > a img {max-width:100%;}
+
+.slidebox .slide-control [class*="control"] label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:20px;border-radius:50%;cursor:pointer;}
+.slidebox .slide-control [class*="control"] label.prev {left:-50px;background:rgb(255, 255, 255) url('left.png') center center / 50% no-repeat;}
+.slidebox .slide-control [class*="control"] label.next {right: -50px; background:rgb(255, 255, 255) url('right.png') center center / 50% no-repeat;}
+
+[name="slide"] {display:none;}
+#slide01:checked ~ .slidelist .slideitem {left:0;}
+#slide02:checked ~ .slidelist .slideitem {left:-100%;}
+#slide03:checked ~ .slidelist .slideitem {left:-200%;}
+#slide04:checked ~ .slidelist .slideitem {left:-300%;}
+#slide05:checked ~ .slidelist .slideitem {left:-400%;}
+#slide06:checked ~ .slidelist .slideitem {left:-500%;}
+
+.slide-control [class*="control"] {display:none;}
+#slide01:checked ~ .slide-control .control01 {display:block;}
+#slide02:checked ~ .slide-control .control02 {display:block;}
+#slide03:checked ~ .slide-control .control03 {display:block;}
+#slide04:checked ~ .slide-control .control04 {display:block;}
+#slide05:checked ~ .slide-control .control04 {display:block;}
+#slide06:checked ~ .slide-control .control04 {display:block;}
+    footer{
+        width: 100%;
+        height: 150px;
+        background-color:rgb(217, 43, 0);
+        margin-top: 737px;
+    }   
+    #footer_box {
+    width: 1140px;
+    height: 150px;
+    margin: 50px;
+   color: #000000;
+}
+#footer_logo{
+  float: right;
+  margin: 100px -150px 0px 0px;
+  
+}
+#address {
+  float: left;
+  margin: 50px 0 0 30px;
+}
+    a:link {
+            text-decoration: none;
+            color: black;
+             }
+             a:visited {
+            color:rgb(0, 0, 0);
+            } 
+            a:hover {
+            color: #D92904;
+            }
+            a:active {
+            color: #F89705;
+            }
+    </style>
+  </head>
+  <body>
+    <header>
+     
+      <div id="logo">
+        <a href="index.html"><img src="토에이1.png"width="300px" height="80px" alt=""></a>
+      </div>
+      <nav id="menus">
+      
+        <ul id="main_menu">
+          <a href="Sub1-1.html"><li>디지몬</li></a>
+          <a href="Sub2-1.html"><li>원피스</li></a>
+          <a href="Sub3-1.html"><li>쾌걸근육맨</li></a>
+          <a href="Sub4-1.html"><li>드래곤볼</li></a>
+          <a href="Sub5-1.html"><li>세일러문</li></a>
+        </ul>
+      </nav>
+    </header>
+  
+    <section id="contents">
+      <nav id="sub_menu">
+        <h3></h3>
+        <ul><br>
+          <a href="Sub4-1.html"><li>줄거리</li></a>
+          <a href="Sub4-2.html"> <li>등장인물</li></a>
+          <a href="Sub4-3.html"><li>노래</li></a>
+        </ul>
+      </nav>
+     
+      <div id="main_contents">
+        <h3>등장인물</h3>
+      
+        <div class="slidebox">
+            <input type="radio" name="slide" id="slide01" checked>
+            <input type="radio" name="slide" id="slide02">
+            <input type="radio" name="slide" id="slide03">
+            <input type="radio" name="slide" id="slide04">
+            <input type="radio" name="slide" id="slide05">
+            <input type="radio" name="slide" id="slide06">
+            <ul class="slidelist">
+                <li class="slideitem">
+                    <a><img src="gon01.png"></a>
+                </li>
+                <li class="slideitem">
+                    <a><img src="gon02.png" ></a>
+                </li>
+                <li class="slideitem">
+                    <a><img src="gon03.png"></a>
+                </li>
+                <li class="slideitem">
+                    <a><img src="gon04.png"></a>
+                </li>
+                <li class="slideitem">
+                  <a><img src="slide05.png"></a>
+              </li>
+                <li class="slideitem">
+                    <a><img src="slide06.png"></a>
+                </li>
+            </ul>
+            <div class="slide-control">
+                <div class="control01">
+                    <label for="slide04" class="prev"></label>
+                    <label for="slide02" class="next"></label>
+                </div>
+                <div class="control02">
+                    <label for="slide01" class="prev"></label>
+                    <label for="slide03" class="next"></label>
+                </div>
+                <div class="control03">
+                    <label for="slide02" class="prev"></label>
+                    <label for="slide04" class="next"></label>
+                </div>
+                <div class="control04">
+                    <label for="slide03" class="prev"></label>
+                    <label for="slide01" class="next"></label>
+                </div>
+            </div>
+        </div>
+        
+     
+      <br><br>
+      
+        </div>
+    </section>
+ 
+    <div id="clear"></div>
+    <footer>
+      <div id="footer_box">
+      <div id="footer_logo">
+        <img src="토에이2.png" alt="">
+      </div>
+      <ul id="address">
+        <li</li>
+      </ul>
+    </div>
+    </footer>
+  </body>
+</html>
